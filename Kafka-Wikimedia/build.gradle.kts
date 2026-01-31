@@ -21,7 +21,10 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
     // Source: https://mvnrepository.com/artifact/com.launchdarkly/okhttp-eventsource
-    implementation("com.launchdarkly:okhttp-eventsource:3.0.0")
+    //implementation("com.launchdarkly:okhttp-eventsource:3.0.0")
+
+    // Source: https://mvnrepository.com/artifact/com.launchdarkly/okhttp-eventsource
+    implementation("com.launchdarkly:okhttp-eventsource:4.1.1")
 
 }
 

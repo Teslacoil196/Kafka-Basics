@@ -1,13 +1,14 @@
 package Tesla.Kafka.Wikimedia;
 
-import com.launchdarkly.eventsource.EventHandler;
+//import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.MessageEvent;
+import com.launchdarkly.eventsource.background.BackgroundEventHandler;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class WikimediaHandler implements EventHandler {
+public class WikimediaHandler implements BackgroundEventHandler {
 
     private final Logger log = LoggerFactory.getLogger(WikimediaHandler.class.getName());
 
